@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://artmintflow-backend.onrender.com/api/$1" }
+  ]
+}
