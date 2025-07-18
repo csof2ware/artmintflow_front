@@ -1,10 +1,5 @@
-
 {
-  "version": 2,
-  "builds": [
-    { "src": "next.config.js", "use": "@vercel/next" }
-  ],
-  "env": {
-    "NEXT_PUBLIC_API_BASE": "https://artmintflow-backend.onrender.com"
-  }
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://artmintflow-backend.onrender.com/api/$1" }
+  ]
 }
